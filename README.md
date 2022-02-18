@@ -24,10 +24,11 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
+### Usage
 
 Vue2 component in form of a dialog for selecting icons among Google's Material Icons pack. Icon searches supports both English and Turkish (Courtesy of Google Translate) names of icons.
 
-Installation:
+#### Installation:
 
 ```
 npm install vue2-iconifier --save
