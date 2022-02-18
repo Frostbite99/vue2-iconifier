@@ -58,12 +58,12 @@ catchSelected(selectedIcon){
 ```
 
 If user wants to remove the default button and implement custom logic for opening up the dialog, then following configuration should be made:
-```
+``` vue
 <iconifier @selectIcon="catchSelected" :toggle="toggleDialog" @toggle="catchToggle"  />
 ```
 
 In this configuration, toggleDialog is a variable defined by user to control dialog action. If dialog is closed by its buttons, then the parent component also has to be notified. Therefore, user should define a function to handle these cases and assign it to@toggle tag. An example is below:
-```
+``` js
 catchToggle(event){
 
     this.toggleDialog = event // toggleDialog is a variable defined in parent component.
