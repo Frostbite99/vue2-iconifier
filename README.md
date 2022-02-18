@@ -37,19 +37,19 @@ Usage:
 
 Most basic usage of the component would be with no props. This will result in in a blue plus button appear on the screen, and one may explore the icons via this mode:
 
-```
+``` vue
 <iconifier></iconifier>
 ```
 
 To actually receive the result from the iconifier, one should define a function to catch the changes in iconifier component by watching the selectIcon function:
 
-```
+``` vue
 <iconifier @selectIcon="catchSelected" ></iconifier>
 ```
 
 Where catchSelected is defined as:
 
-```
+``` js
 catchSelected(selectedIcon){
 
     this.selection = selectedIcon // selection is a variable defined in parent component.
