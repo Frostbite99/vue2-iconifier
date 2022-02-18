@@ -1,40 +1,14 @@
 # vue2-iconifier
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-
-### Usage
-
 Vue2 component in form of a dialog for selecting icons among Google's Material Icons pack. Icon searches supports both English and Turkish (Courtesy of Google Translate) names of icons.
 
-#### Installation:
+## Installation:
 
 ```
 npm install vue2-iconifier --save
 ```
 
-Usage:
+## Usage:
 
 Most basic usage of the component would be with no props. This will result in in a blue plus button appear on the screen, and one may explore the icons via this mode:
 
